@@ -1,8 +1,11 @@
-### Project Overview ###
-***Description:***
+
+
+
+ Project Overview 
+  Description:
 A console-based application to manage student records using linked lists for storage.
 
-***Key Features:***
+Key Features:
 
 Add, view, search, and delete student records.
 
@@ -10,7 +13,7 @@ Automatic calculation of total marks and percentage.
 
 Dynamic memory management.
 
-***file_structure***
+file_structure
 
 
 your_project/
@@ -41,27 +44,7 @@ your_project/
             └── freeStudent()
 
 
-sequenceDiagram
-    participant Main
-    participant StudentRecord
-    participant LinkedList
-    
-    Main->>StudentRecord: createStudentRecord()
-    StudentRecord->>StudentRecord: calculateStudentStats()
-    Main->>LinkedList: insertNode()
-    
-    Main->>LinkedList: searchNode()
-    LinkedList->>StudentRecord: compareStudents()
-    
-    Main->>LinkedList: displayList()
-    LinkedList->>StudentRecord: displayStudent()
-    
-    Main->>LinkedList: deleteNode()
-    LinkedList->>StudentRecord: compareStudents()
-    LinkedList->>StudentRecord: freeStudent()
-    
-    Main->>LinkedList: freeList()
-    LinkedList->>StudentRecord: freeStudent()
+
 
 +---------------------+
 |       NODE          |
@@ -141,4 +124,3 @@ sequenceDiagram
 
 
             
-
