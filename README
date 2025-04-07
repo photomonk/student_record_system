@@ -34,13 +34,13 @@ your_project/
         │
         ├── Core Functions
         │   ├── createStudentRecord()
-        │   ├── calculateStudentStats()
-        │   └── cloneStudentRecord()
+        │   ├── linkedlist.h functions 
+        │   
         │
         └── Callback Functions
             ├── displayStudent()
             ├── compareStudents()
-            ├── compareStudentsCaseInsensitive()
+            ├── compareStudentstat()
             └── freeStudent()
 
 
